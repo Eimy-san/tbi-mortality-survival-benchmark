@@ -1,0 +1,14 @@
+# Pinned environment for the reference re-runs reported in Supplementary Table S2
+# and for the released analysis scripts (executed end-to-end in this environment).
+# Requires Python 3.12.3.
+numpy==2.1.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-survival==0.28.0
+lifelines==0.30.3
+xgboost==3.4.1
+lightgbm==4.7.0
+torch==2.7.1  # install the CUDA 12.8 build; required for sm_120 (Blackwell / RTX 5090) GPUs
+matplotlib==3.9.2
+statsmodels==0.15.0
